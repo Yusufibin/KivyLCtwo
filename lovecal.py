@@ -1,6 +1,6 @@
 import requests
 from ctypes import *
-
+#g
 def calculator(firstname, secondname):
 
 
